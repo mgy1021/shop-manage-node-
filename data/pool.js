@@ -10,9 +10,9 @@ const mysql = require("mysql")
 let pool = mysql.createPool({
     connectionLimit: 10,
     host: "localhost",
-    user: "root",
-    password: "123456",
-    database: "shop-manage"
+    user: "应户名",
+    password: "密码",
+    database: "数据库名称"
 })
 
 // 获取连接对象，执行sql语句，将执行结果返回
